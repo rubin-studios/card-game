@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 002 - Basic Research
   m_EditorClassIdentifier: 
   m_Id: 002
-  m_Title: 
-  m_ExternalText: 
-  m_InternalText: 
+  m_Title: Basic Research
+  m_ExternalText: No Effect
+  m_InternalText: No Effect
   m_Cost: 3
   m_Revenue: 0
   m_Research: 2

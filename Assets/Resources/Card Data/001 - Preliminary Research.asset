@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 001 - Preliminary Research
   m_EditorClassIdentifier: 
   m_Id: 001
-  m_Title: 
-  m_ExternalText: 
-  m_InternalText: 
+  m_Title: Preliminary research
+  m_ExternalText: No Effect
+  m_InternalText: No Effect
   m_Cost: 1
   m_Revenue: 0
   m_Research: 1

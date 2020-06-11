@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Id: 003
   m_Title: Advanced Research
-  m_ExternalText: 
-  m_InternalText: 
+  m_ExternalText: No Effect
+  m_InternalText: No Effect
   m_Cost: 6
   m_Revenue: 0
   m_Research: 3
