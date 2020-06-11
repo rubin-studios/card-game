@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95dc4890b5c853b4b8c159781a6b523e, type: 3}
-  m_Name: 002 - Basic Research Team
+  m_Name: 003 - Advanced Research
   m_EditorClassIdentifier: 
-  m_CardName: "\u2022 Design Team  "
-  m_CardDescriptionTop: +2 Research
-  m_CardDescriptionBottom: Boost Self by 2
-  m_CardCost: 3
+  m_Id: 003
+  m_Title: Advanced Research
+  m_ExternalText: 
+  m_InternalText: 
+  m_Cost: 6
   m_Revenue: 0
+  m_Research: 3

@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95dc4890b5c853b4b8c159781a6b523e, type: 3}
-  m_Name: 003 - R&D Department
+  m_Name: 001 - Preliminary Research
   m_EditorClassIdentifier: 
-  m_CardName: "\u2022 R&D Department  "
-  m_CardDescriptionTop: +3 Research
-  m_CardDescriptionBottom: Boost Self by 3
-  m_CardCost: 6
+  m_Id: 001
+  m_Title: 
+  m_ExternalText: 
+  m_InternalText: 
+  m_Cost: 1
   m_Revenue: 0
+  m_Research: 1
