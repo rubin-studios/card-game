@@ -1737,7 +1737,7 @@ MonoBehaviour:
   m_ExternalDescription: {fileID: 5405473650188503633}
   m_InternalDescription: {fileID: 5405473650010818860}
   m_Cost: {fileID: 5405473649806188462}
-  m_CurrentRevenue: {fileID: 0}
+  m_CurrentRevenue: {fileID: 5405473649613169051}
   m_Research: {fileID: 1890963907}
 --- !u!4 &5405473651297460181
 Transform:

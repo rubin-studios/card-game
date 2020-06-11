@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class CardDisplay : MonoBehaviour
+public class CardController : MonoBehaviour
 {
 
     public CardTemplate m_CardData;
 
     //Revenue can be changed after card instantiation
-    public int currentRevenue;
-    public int baseRevenue;
+    private int currentRevenue;
+    private int baseRevenue;
 
     public TextMeshPro m_Title;
     public TextMeshPro m_ExternalDescription;
@@ -42,6 +42,27 @@ public class CardDisplay : MonoBehaviour
         m_Cost.text = m_CardData.m_Cost.ToString();
         m_CurrentRevenue.text = currentRevenue.ToString();
         m_Research.text = m_CardData.m_Research.ToString();
+
+        RefreshRevenueColour();
+    }
+
+    public void RefreshRevenueColour()
+    {
+        if (currentRevenue < baseRevenue)
+        {
+            //If project is SETBACK, colour is red
+            m_CurrentRevenue.color = Color.red;
+        }
+        else if (currentRevenue > baseRevenue)
+        {
+            //If project is BOOSTED, colour is green
+            m_CurrentRevenue.color = Color.green;
+        }
+        else
+        {
+            // If project is at base revenue, colour is grey
+            m_CurrentRevenue.color = new Color(0.15f,0.15f,0.15f,1);
+        }
     }
 
     public int GetResearch()
