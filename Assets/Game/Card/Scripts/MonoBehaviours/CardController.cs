@@ -6,11 +6,13 @@ using TMPro;
 public class CardController : MonoBehaviour
 {
 
-    public CardTemplate m_CardData;
+    public CardModel m_CardData;
 
     //Revenue can be changed after card instantiation
     private int currentRevenue;
     private int baseRevenue;
+    private AdjTag m_ClassTag;
+    private NounTag m_NounTag;
 
     public TextMeshPro m_Title;
     public TextMeshPro m_Text;
@@ -19,20 +21,26 @@ public class CardController : MonoBehaviour
     public TextMeshPro m_CurrentRevenue;
     public TextMeshPro m_Research;
 
-    // MonoBehaviour
+    public SpriteRenderer m_ClassTagView;
+    public SpriteRenderer m_NounTagView;
+
+
+    // MonoBehaviour Functions
     void Start()
     {
         baseRevenue = m_CardData.m_Revenue;
         currentRevenue = baseRevenue;
 
-        RefreshCardText();
+        m_ClassTag = m_CardData.m_ClassTag;
+        m_NounTag = m_CardData.m_NounTag;
 
-        ProcessTags();
+        RefreshCardView();
+
     }
 
 
-
-    public void RefreshCardText()
+    // Member Functions
+    public void RefreshCardView()
     {
         m_Title.text = m_CardData.m_Title;
         m_Text.text = m_CardData.m_Text;
@@ -40,6 +48,9 @@ public class CardController : MonoBehaviour
         m_Cost.text = m_CardData.m_Cost.ToString();
         m_CurrentRevenue.text = currentRevenue.ToString();
         m_Research.text = m_CardData.m_Research.ToString();
+
+        m_ClassTagView.sprite = Resources.Load<Sprite>("Card/Sprites/CardShirts/" + m_ClassTag.ToString());
+        m_NounTagView.sprite = Resources.Load<Sprite>("Card/Sprites/Tags/" + m_NounTag.ToString());
 
         RefreshRevenueColour();
     }
@@ -63,11 +74,6 @@ public class CardController : MonoBehaviour
         }
     }
 
-    public void ProcessTags()
-    {
-
-    }
-
     public int GetResearch()
     {
         return m_CardData.m_Research;
@@ -86,13 +92,13 @@ public class CardController : MonoBehaviour
     public void SetBaseRevenue(int value)
     {
         baseRevenue = value;
-        RefreshCardText();
+        RefreshCardView();
     }
 
     public void SetCurrentRevenue(int value)
     {
         currentRevenue = value;
-        RefreshCardText();
+        RefreshCardView();
     }
 }
 

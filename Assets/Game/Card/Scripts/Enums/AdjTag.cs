@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum AdjTag
 {
-    NONE,
+    BASE,
     MARKETING,
     PR,
     ADMIN,
