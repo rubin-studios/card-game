@@ -31,4 +31,4 @@ jobs:
       uses: webbertakken/unity-builder@v1.0
       with:
         unityVersion: 2020.4.0f1
-        targetPlatform: Windows
+        targetPlatform: StandaloneWindows64 # Build a Windows 64-bit standalone.
