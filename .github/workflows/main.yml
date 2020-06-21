@@ -29,3 +29,6 @@ jobs:
     
     - name: Unity - Builder
       uses: webbertakken/unity-builder@v1.0
+      with:
+        unityVersion: 2020.4.0f1
+        targetPlatform: Windows
