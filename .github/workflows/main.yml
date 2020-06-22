@@ -9,7 +9,10 @@ on:
     branches: [ master, develop ]
   pull_request:
     branches: [ master, develop ]
-    
+
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -29,8 +32,6 @@ jobs:
     
     - name: Unity - Builder
       uses: webbertakken/unity-builder@master
-      env:
-        UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
       with:
         unityVersion: 2019.4.0f1
         targetPlatform: StandaloneWindows64 # Build a Windows 64-bit standalone.
