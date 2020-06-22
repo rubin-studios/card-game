@@ -41,11 +41,11 @@ jobs:
       - name: Run tests
         uses: webbertakken/unity-test-runner@v1.3
         with:
-          unityVersion: 2019.2.11f1
+          unityVersion: 2019.4.0f1
 
       # Build
       - name: Build project
         uses: webbertakken/unity-builder@v0.10
         with:
-          unityVersion: 2019.2.11f1
+          unityVersion: 2019.4.0f1
           targetPlatform: WebGL     # Runs a single command using the runners shell
