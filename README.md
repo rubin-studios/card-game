@@ -1,10 +1,14 @@
 # Card Game
 
-![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/rubin-studios/card-game?include_prereleases)       ![GitHub repo size](https://img.shields.io/github/repo-size/rubin-studios/card-game)        ![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/rubin-studios/card-game/latest?include_prereleases&sort=semver)
-
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/rubin-studios/card-game)        ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rubin-studios/card-game)      ![CI](https://github.com/rubin-studios/card-game/workflows/CI/badge.svg?branch=develop)
-
-![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/rubin-studios/card-game)      ![Code Climate issues](https://img.shields.io/codeclimate/issues/rubin-studios/card-game)       ![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/rubin-studios/card-game)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/rubin-studios/card-game?include_prereleases)
+![GitHub repo size](https://img.shields.io/github/repo-size/rubin-studios/card-game)
+![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/rubin-studios/card-game/latest?include_prereleases&sort=semver)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/rubin-studios/card-game)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rubin-studios/card-game)
+![CI](https://github.com/rubin-studios/card-game/workflows/CI/badge.svg?branch=develop)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/rubin-studios/card-game)
+![Code Climate issues](https://img.shields.io/codeclimate/issues/rubin-studios/card-game)
+![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/rubin-studios/card-game)
 
 ## Description of application
 
