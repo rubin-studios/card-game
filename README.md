@@ -9,9 +9,9 @@
 ![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/rubin-studios/card-game/latest?include_prereleases&sort=semver)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rubin-studios/card-game)
 
-## Description of application
+## Description
 
-blah
+This is where we would write a description of the app
 
 ## Visuals
 
