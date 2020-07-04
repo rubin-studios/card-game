@@ -2,8 +2,9 @@
 
 ![CI](https://github.com/rubin-studios/card-game/workflows/CI/badge.svg?branch=develop)
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/rubin-studios/card-game)
-![Code Climate issues](https://img.shields.io/codeclimate/issues/rubin-studios/card-game)
 ![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/rubin-studios/card-game)
+![Code Climate issues](https://img.shields.io/codeclimate/issues/rubin-studios/card-game)
+
 
 
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/rubin-studios/card-game?include_prereleases)
