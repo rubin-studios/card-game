@@ -9,7 +9,6 @@
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/rubin-studios/card-game?include_prereleases)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rubin-studios/card-game)
 ![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/rubin-studios/card-game/latest?include_prereleases&sort=semver)
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/rubin-studios/card-game)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rubin-studios/card-game)
 
 ## Description of application
