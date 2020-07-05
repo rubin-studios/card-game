@@ -11,11 +11,6 @@ Will Bartlett
 
 The title of the game is undecided. The picture on the title page needs to be replaced.
 
-### Authors and Contact Information
-
-Jeremy Legere        |    jeremy.legere@unb.ca        |    5066092430
-Will Bartlett        |    willm.bartlett@unb.ca       |    5069771407
-
 ### Game Description
 
 The game pits two players against each other, where the players play corporations which are corporations in the same competitive space.
@@ -36,16 +31,17 @@ The game is a competitive deck-building strategy game. It has an emphasis on any
 
 1. A zone is a place which can house project cards, or be targetable by projects.
 2. Common between all players, these zones are unique:
-    The Market;
-    The Stack (The deck of projects that source the Market);
+    * The Market;
+    * The Stack (The deck of projects that source the Market);
+
 3. A player owns several zones, each player has:
-    Their Deck;
-    Their Play Area, which consists of:
-    Their External Row;
-    Their Internal Row;
-    Their Discard;
-    Their Hand;
-    Their Corporation (For projects that affect a player directly);
+    * Their Deck;
+    * Their Play Area, which consists of:
+    * Their External Row;
+    * Their Internal Row;
+    * Their Discard;
+    * Their Hand;
+    * Their Corporation (For projects that affect a player directly);
 
 #### Deck Construction
 
@@ -78,20 +74,20 @@ The game is a competitive deck-building strategy game. It has an emphasis on any
 #### Main Phase
 
 1. The Main phase consists of:
-    Turns alternating between players, until both players pass their turns for the remainder of the phase. 
-    Passing can occur any time during the round on a player’s turn in the main phase. 
-    If a player cannot fund a project or research a project on their turn, they are forced to pass.
+    * Turns alternating between players, until both players pass their turns for the remainder of the phase. 
+    * Passing can occur any time during the round on a player’s turn in the main phase. 
+    * If a player cannot fund a project or research a project on their turn, they are forced to pass.
 2. End-of-Round consists of:
-    The difference in total revenue from the players is used to buy that much stock from the player with less revenue.
-    If any player has no stock left, they lose the game.
-    Any project cards that are in the play area are moved to the discard, and any discarded project cards are shuffled together, and placed on the bottom of the owner’s deck.
+    * The difference in total revenue from the players is used to buy that much stock from the player with less revenue.
+    * If any player has no stock left, they lose the game.
+    * Any project cards that are in the play area are moved to the discard, and any discarded project cards are shuffled together, and placed on the bottom of the owner’s deck.
 
 #### Turn
 
 1. On a player’s Turn dring the Main phase they must either:
-    Play a card, or;
-    Research a card, or;
-    Pass, forgoing their turns for the rest of the Main phase.
+    * Play a card, or;
+    * Research a card, or;
+    * Pass, forgoing their turns for the rest of the Main phase.
 
 #### Deck
 
@@ -110,7 +106,8 @@ Hand
 
 #### Pre-Match
 
-The players choose a Corporation and construct a 10-card Base Deck before the match, and then the match is played. The objective of the game is to purchase enough stock in your opponents company to become the majority stakeholder and eliminate the opponent from the game.
+1. The players choose a Corporation and construct a 10-card Base Deck before the match, and then the match is played.
+2. The objective of the game is to purchase enough stock in your opponents company to become the majority stakeholder and eliminate the opponent from the game.
 
 #### Playing a Match
 
@@ -120,9 +117,10 @@ The players choose a Corporation and construct a 10-card Base Deck before the ma
 A project may be played in one of two zones of the play area - the Internal Row, or the External Row. Each project has separate text for each zone.
 
 ### Game Universe
+
 1. Sci-Fi so we can have futuristic cards, and exaggerated/cynical corporate processes? Business leaders regarded as cult leaders?
 2. Unregulated capitalism, and exploitation of workers?
-3. https://www.youtube.com/watch?v=rp0M5Y6JMbQ
+3. <https://www.youtube.com/watch?v=rp0M5Y6JMbQ>
 4. Orwellian vibes
 5. Morally questionable projects
 
