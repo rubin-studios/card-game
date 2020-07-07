@@ -74,8 +74,8 @@ The game is a competitive deck-building strategy game. It has an emphasis on any
 #### Main Phase
 
 1. The Main phase consists of:
-    * Turns alternating between players, until both players pass their turns for the remainder of the phase. 
-    * Passing can occur any time during the round on a player’s turn in the main phase. 
+    * Turns alternating between players, until both players pass their turns for the remainder of the phase.
+    * Passing can occur any time during the round on a player’s turn in the main phase.
     * If a player cannot fund a project or research a project on their turn, they are forced to pass.
 2. End-of-Round consists of:
     * The difference in total revenue from the players is used to buy that much stock from the player with less revenue.
@@ -95,7 +95,7 @@ The game is a competitive deck-building strategy game. It has an emphasis on any
 2. Discard
 3. If a card would be discarded, it is instead placed on the bottom of the player’s deck.
 Hand
-4. The maximum hand size is 10. 
+4. The maximum hand size is 10.
 5. Any cards that are not played at the end of the round remain in the player’s hand.
 
 #### External and Internal Rows
@@ -111,7 +111,7 @@ Hand
 
 #### Playing a Match
 
-1. Both players start with a constructed 10-card Base Deck, and modify their deck over the course of the Match. Which project cards you acquire from the Market, and which project cards your opponent acquires is one of the key factors to the outcome of the game. 
+1. Both players start with a constructed 10-card Base Deck, and modify their deck over the course of the Match. Which project cards you acquire from the Market, and which project cards your opponent acquires is one of the key factors to the outcome of the game.
 
 2. The game is played in rounds, in which players take turns playing a single project card until both players choose to pass their turns for the rest of the round. A player is forced to pass if they cannot play a card.
 A project may be played in one of two zones of the play area - the Internal Row, or the External Row. Each project has separate text for each zone.
@@ -126,7 +126,7 @@ A project may be played in one of two zones of the play area - the Internal Row,
 
 ### Planned Game Engine
 
-For the project, we will be using Unity version 2019.4.0f1 LTS with C# as the scripting language. 
+For the project, we will be using Unity version 2019.4.0f1 LTS with C# as the scripting language.
 
 ### Planned Game Platform and Operating Systems
 
